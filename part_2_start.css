@@ -28,5 +28,9 @@ color: cornflowerblue;
     position: absolute;
     top: 60px;
     right: 35px;   
-
+}
+.container  div > span:nth-child(2){
+    position: absolute;
+     bottom: 60px;
+     right: 35px;    
 }
