@@ -11,3 +11,7 @@
 .container div:nth-child(2n) {
 border-color: red;
 }
+ 
+.container div:nth-child(2n+1) > span:nth-child(even){
+    color: green;
+}
