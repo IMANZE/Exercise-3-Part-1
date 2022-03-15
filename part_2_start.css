@@ -8,3 +8,6 @@
     border: 1px solid black;
     display: inline-block;
   }
+.container div:nth-child(2n) {
+border-color: red;
+}
