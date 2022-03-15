@@ -34,3 +34,8 @@ color: cornflowerblue;
      bottom: 60px;
      right: 35px;    
 }
+.container div:nth-child(10) > span:last-of-type{
+    position: absolute;
+    left: 80px;
+    bottom: 21.335px;
+}
