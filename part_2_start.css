@@ -44,3 +44,9 @@ color: cornflowerblue;
     right: 80px;
     bottom: 21.335px;
 } 
+.container {
+    font-size: 0;
+}
+.container div{
+    font-size: 1rem;
+}
