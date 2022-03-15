@@ -19,3 +19,7 @@ border-color: red;
 .container div:nth-child(2) > span:last-of-type{
 color: cornflowerblue;
 }
+
+.container div:nth-child(6) > span:not(:last-of-type){
+    color: yellow;
+}
