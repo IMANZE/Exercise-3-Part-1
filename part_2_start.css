@@ -7,6 +7,7 @@
     height: 60px;
     border: 1px solid black;
     display: inline-block;
+    position: relative;
   }
 .container div:nth-child(2n) {
 border-color: red;
@@ -22,4 +23,10 @@ color: cornflowerblue;
 
 .container div:nth-child(6) > span:not(:last-of-type){
     color: yellow;
+}
+.container  div > span:first-child{
+    position: absolute;
+    top: 60px;
+    right: 35px;   
+
 }
