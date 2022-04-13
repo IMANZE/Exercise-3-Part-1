@@ -1,52 +1,52 @@
 .container {
-    margin-left: 4rem;
-    margin-top: 4rem;
-  }
-  .container div {
-    width: 70px;
-    height: 60px;
-    border: 1px solid black;
-    display: inline-block;
-    position: relative;
-  }
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+.container div {
+  width: 70px;
+  height: 60px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
 .container div:nth-child(2n) {
-border-color: red;
-}
- 
-.container div:nth-child(2n+1) > span:nth-child(even){
-    color: green;
+  border-color: red;
 }
 
-.container div:nth-child(2) > span:last-of-type{
-color: cornflowerblue;
+.container div:nth-child(2n + 1) > span:nth-child(even) {
+  color: green;
 }
 
-.container div:nth-child(6) > span:not(:last-of-type){
-    color: yellow;
+.container div:nth-child(2) > span:last-of-type {
+  color: cornflowerblue;
 }
-.container  div > span:first-child{
-    position: absolute;
-    top: 60px;
-    right: 35px;   
+
+.container div:nth-child(6) > span:not(:last-of-type) {
+  color: yellow;
 }
-.container  div > span:nth-child(2){
-    position: absolute;
-     bottom: 60px;
-     right: 35px;    
+.container div > span:first-child {
+  position: absolute;
+  top: 60px;
+  right: 35px;
 }
-.container div:nth-child(10) > span:last-of-type{
-    position: absolute;
-    left: 80px;
-    bottom: 21.335px;
+.container div > span:nth-child(2) {
+  position: absolute;
+  bottom: 60px;
+  right: 35px;
 }
-.container div:nth-child(1) > span:last-of-type{
-    position: absolute;
-    right: 80px;
-    bottom: 21.335px;
-} 
+.container div:nth-child(10) > span:last-of-type {
+  position: absolute;
+  left: 80px;
+  bottom: 21.335px;
+}
+.container div:nth-child(1) > span:last-of-type {
+  position: absolute;
+  right: 80px;
+  bottom: 21.335px;
+}
 .container {
-    font-size: 0;
+  font-size: 0;
 }
-.container div{
-    font-size: 1rem;
+.container div {
+  font-size: 1rem;
 }
